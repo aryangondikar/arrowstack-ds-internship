@@ -1,0 +1,113 @@
+{
+    "total_employees_analyzed": 1470,
+    "overall_attrition_rate_pct": 16.12,
+    "multivariate_5fold_roc_auc": 0.824,
+    "hypothesis_tests": [
+        {
+            "feature": "OverTime",
+            "test_type": "Chi-Square",
+            "statistic": 87.5643,
+            "p_value": 0.0,
+            "significant_at_0_05": true,
+            "attrition_rate_by_group_pct": {
+                "No": 10.44,
+                "Yes": 30.53
+            },
+            "governance_warning": null
+        },
+        {
+            "feature": "Department",
+            "test_type": "Chi-Square",
+            "statistic": 10.796,
+            "p_value": 0.004526,
+            "significant_at_0_05": true,
+            "attrition_rate_by_group_pct": {
+                "Human Resources": 19.05,
+                "Research & Development": 13.84,
+                "Sales": 20.63
+            },
+            "governance_warning": null
+        },
+        {
+            "feature": "JobRole",
+            "test_type": "Chi-Square",
+            "statistic": 86.1903,
+            "p_value": 0.0,
+            "significant_at_0_05": true,
+            "attrition_rate_by_group_pct": {
+                "Healthcare Representative": 6.87,
+                "Human Resources": 23.08,
+                "Laboratory Technician": 23.94,
+                "Manager": 4.9,
+                "Manufacturing Director": 6.9,
+                "Research Director": 2.5,
+                "Research Scientist": 16.1,
+                "Sales Executive": 17.48,
+                "Sales Representative": 39.76
+            },
+            "governance_warning": null
+        },
+        {
+            "feature": "hiring_tenure_stage",
+            "test_type": "Chi-Square",
+            "statistic": 73.7376,
+            "p_value": 0.0,
+            "significant_at_0_05": true,
+            "attrition_rate_by_group_pct": {
+                "0-1y (New Hire)": 34.88,
+                "1-3y (Ramp-Up)": 18.43,
+                "3-7y (Core)": 12.71,
+                "7y+ (Veteran)": 10.42
+            },
+            "governance_warning": null
+        },
+        {
+            "feature": "PerformanceRating",
+            "test_type": "Chi-Square",
+            "statistic": 0.0002,
+            "p_value": 0.990075,
+            "significant_at_0_05": false,
+            "attrition_rate_by_group_pct": {
+                "3": 16.08,
+                "4": 16.37
+            },
+            "governance_warning": null
+        },
+        {
+            "feature": "MonthlyIncome",
+            "test_type": "Mann-Whitney U",
+            "statistic": 191600.5,
+            "p_value": 0.0,
+            "significant_at_0_05": true,
+            "retained_median": 5204.0,
+            "attrited_median": 3202.0
+        },
+        {
+            "feature": "Age",
+            "test_type": "Mann-Whitney U",
+            "statistic": 185362.0,
+            "p_value": 0.0,
+            "significant_at_0_05": true,
+            "retained_median": 36.0,
+            "attrited_median": 32.0
+        },
+        {
+            "feature": "YearsAtCompany",
+            "test_type": "Mann-Whitney U",
+            "statistic": 189639.0,
+            "p_value": 0.0,
+            "significant_at_0_05": true,
+            "retained_median": 6.0,
+            "attrited_median": 3.0
+        },
+        {
+            "feature": "promotion_stagnation_ratio",
+            "test_type": "Mann-Whitney U",
+            "statistic": 149852.0,
+            "p_value": 0.518533,
+            "significant_at_0_05": false,
+            "retained_median": 0.14,
+            "attrited_median": 0.12
+        }
+    ]
+}

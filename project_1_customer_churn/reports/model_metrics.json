@@ -1,0 +1,68 @@
+{
+    "LogisticRegression": {
+        "cv_roc_auc_mean": 0.8459,
+        "cv_roc_auc_std": 0.0125,
+        "test_roc_auc": 0.8418,
+        "churn_recall": 0.7834,
+        "churn_precision": 0.5052,
+        "churn_f1": 0.6143
+    },
+    "top_drivers": [
+        {
+            "feature": "cat__Contract_Two year",
+            "log_odds": -1.41096854361748
+        },
+        {
+            "feature": "cat__InternetService_Fiber optic",
+            "log_odds": 1.2606475903731114
+        },
+        {
+            "feature": "num__tenure",
+            "log_odds": -1.162856051469864
+        },
+        {
+            "feature": "cat__Contract_One year",
+            "log_odds": -0.7174487999016063
+        },
+        {
+            "feature": "num__MonthlyCharges",
+            "log_odds": -0.6011936657073439
+        },
+        {
+            "feature": "num__TotalCharges",
+            "log_odds": 0.49318554580275015
+        },
+        {
+            "feature": "cat__OnlineSecurity_Yes",
+            "log_odds": -0.4508363870078182
+        },
+        {
+            "feature": "cat__PaymentMethod_Electronic check",
+            "log_odds": 0.3992759648693106
+        },
+        {
+            "feature": "cat__TechSupport_Yes",
+            "log_odds": -0.380754540377697
+        },
+        {
+            "feature": "cat__PaperlessBilling_Yes",
+            "log_odds": 0.33549236212572253
+        },
+        {
+            "feature": "cat__StreamingMovies_Yes",
+            "log_odds": 0.31541420590960584
+        },
+        {
+            "feature": "cat__StreamingTV_Yes",
+            "log_odds": 0.2913327999566309
+        }
+    ],
+    "RandomForest": {
+        "cv_roc_auc_mean": 0.8459,
+        "cv_roc_auc_std": 0.0101,
+        "test_roc_auc": 0.8429,
+        "churn_recall": 0.7754,
+        "churn_precision": 0.5341,
+        "churn_f1": 0.6325
+    }
+}

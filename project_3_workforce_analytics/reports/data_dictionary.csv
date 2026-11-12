@@ -1,0 +1,36 @@
+column_name,data_type,non_null_count,null_count,null_percentage,unique_values,sample_value
+Age,int64,1470,0,0.0,43,41
+Attrition,object,1470,0,0.0,2,Yes
+BusinessTravel,object,1470,0,0.0,3,Travel_Rarely
+DailyRate,int64,1470,0,0.0,886,1102
+Department,object,1470,0,0.0,3,Sales
+DistanceFromHome,int64,1470,0,0.0,29,1
+Education,int64,1470,0,0.0,5,2
+EducationField,object,1470,0,0.0,6,Life Sciences
+EmployeeCount,int64,1470,0,0.0,1,1
+EmployeeNumber,int64,1470,0,0.0,1470,1
+EnvironmentSatisfaction,int64,1470,0,0.0,4,2
+Gender,object,1470,0,0.0,2,Female
+HourlyRate,int64,1470,0,0.0,71,94
+JobInvolvement,int64,1470,0,0.0,4,3
+JobLevel,int64,1470,0,0.0,5,2
+JobRole,object,1470,0,0.0,9,Sales Executive
+JobSatisfaction,int64,1470,0,0.0,4,4
+MaritalStatus,object,1470,0,0.0,3,Single
+MonthlyIncome,int64,1470,0,0.0,1349,5993
+MonthlyRate,int64,1470,0,0.0,1427,19479
+NumCompaniesWorked,int64,1470,0,0.0,10,8
+Over18,object,1470,0,0.0,1,Y
+OverTime,object,1470,0,0.0,2,Yes
+PercentSalaryHike,int64,1470,0,0.0,15,11
+PerformanceRating,int64,1470,0,0.0,2,3
+RelationshipSatisfaction,int64,1470,0,0.0,4,1
+StandardHours,int64,1470,0,0.0,1,80
+StockOptionLevel,int64,1470,0,0.0,4,0
+TotalWorkingYears,int64,1470,0,0.0,40,8
+TrainingTimesLastYear,int64,1470,0,0.0,7,0
+WorkLifeBalance,int64,1470,0,0.0,4,1
+YearsAtCompany,int64,1470,0,0.0,37,6
+YearsInCurrentRole,int64,1470,0,0.0,19,4
+YearsSinceLastPromotion,int64,1470,0,0.0,16,0
+YearsWithCurrManager,int64,1470,0,0.0,18,5

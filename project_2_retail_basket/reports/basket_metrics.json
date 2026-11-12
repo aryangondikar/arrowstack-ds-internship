@@ -1,0 +1,55 @@
+{
+    "scoped_country": "United Kingdom",
+    "multi_item_baskets_analyzed": 16506,
+    "unique_skus_analyzed": 3981,
+    "frequent_itemsets_count": 933,
+    "qualified_rules_count": 484,
+    "max_lift": 36.4351,
+    "top_5_rules": [
+        {
+            "antecedents_str": "REGENCY TEA PLATE ROSES",
+            "consequents_str": "REGENCY TEA PLATE GREEN",
+            "support": 0.017,
+            "confidence": 0.7395,
+            "lift": 36.4351,
+            "leverage": 0.0166,
+            "conviction": 3.7605
+        },
+        {
+            "antecedents_str": "REGENCY TEA PLATE GREEN",
+            "consequents_str": "REGENCY TEA PLATE ROSES",
+            "support": 0.017,
+            "confidence": 0.8388,
+            "lift": 36.4351,
+            "leverage": 0.0166,
+            "conviction": 6.0609
+        },
+        {
+            "antecedents_str": "POPPY'S PLAYHOUSE BEDROOM",
+            "consequents_str": "POPPY'S PLAYHOUSE KITCHEN",
+            "support": 0.0161,
+            "confidence": 0.728,
+            "lift": 32.0446,
+            "leverage": 0.0156,
+            "conviction": 3.5932
+        },
+        {
+            "antecedents_str": "POPPY'S PLAYHOUSE KITCHEN",
+            "consequents_str": "POPPY'S PLAYHOUSE BEDROOM",
+            "support": 0.0161,
+            "confidence": 0.7067,
+            "lift": 32.0446,
+            "leverage": 0.0156,
+            "conviction": 3.3339
+        },
+        {
+            "antecedents_str": "SET/6 RED SPOTTY PAPER CUPS",
+            "consequents_str": "SET/6 RED SPOTTY PAPER PLATES",
+            "support": 0.0154,
+            "confidence": 0.7962,
+            "lift": 31.4419,
+            "leverage": 0.0149,
+            "conviction": 4.7834
+        }
+    ]
+}
